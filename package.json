@@ -2,6 +2,9 @@
 	"name" : "netlify-eleventy-test-01",
 	"description" : "Does this really work?",
 	"version" : "0.0.1",
+	"scripts" : {
+		"build": "npx @11ty/eleventy"
+	},
 	"dependencies" : {
 		"@11ty/eleventy": ">=0.11.0"
 	}
